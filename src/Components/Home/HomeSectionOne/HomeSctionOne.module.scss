@@ -1,0 +1,118 @@
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../../../fonts/eot/dana-regular.eot');
+	src: url('../../../../fonts/eot/dana-regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../../../fonts/woff2/dana-regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../../../fonts/woff/dana-regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+
+
+.HomeSctionOne{
+    margin: -30px 140px;
+    font-family: dana;
+}
+
+.SectionOneImg{
+    width: 40vw;
+    height: fit-content;
+
+}
+
+.TapsiServices , .BuyCode{
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 0;
+}
+
+.TapsiServices{
+    flex-direction: row-reverse;
+    img{
+        margin-left: -50px;
+        margin-right: 100px;
+    }
+}
+
+.BuyCode{
+   img{
+    margin-left: 50px;
+   }
+}
+
+.title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.Info{
+    font-size: 18px;
+    text-align:justify ;
+    // width: 520px;
+}
+
+.Link{
+    font-size: 16px;
+    color: #ff5722!important;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Button{
+    background-color: #ff5722;
+    font-size: 16px;
+    border-radius: 12px;
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.Button:hover{
+    background-color: #ff6838;
+}
+
+
+@media (max-width: 770px) {
+    .TapsiServices , .BuyCode{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .TapsiServices{
+        img{
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+
+    .Info{
+        width: fit-content;
+        font-size: 14px;
+    }
+
+    .HomeSctionOne{
+        margin: -30px 40px;
+    }
+
+    .title{
+        font-size: 22px;
+        margin: 20px 0 ;
+    }
+    .Link{
+        font-size: 14px;
+    }
+    .Button{
+        font-size: 14px;
+    }
+
+    .SectionOneImg{
+        width: 80vw;
+        margin: 0 0;
+    }
+}
