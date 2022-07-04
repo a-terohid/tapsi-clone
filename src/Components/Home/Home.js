@@ -4,6 +4,7 @@ import React from 'react';
 import Banner from './Banner/Banner';
 import Tapsi_Services from './Tapsi-Services/Tapsi_Services';
 import HomeSctionOne from './HomeSectionOne/HomeSctionOne';
+import HomeSctionTwo from './HomeSectionTwo/HomeSectionTwo';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Banner />
             <Tapsi_Services />
             <HomeSctionOne />
+            <HomeSctionTwo />
         </div>
     );
 };

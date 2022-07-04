@@ -1,0 +1,124 @@
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../../../../fonts/eot/dana-regular.eot');
+	src: url('../../../../../fonts/eot/dana-regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../../../../fonts/woff2/dana-regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../../../../fonts/woff/dana-regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+.TapsiAdvantages{
+    font-family: dana;
+    display: flex;
+    justify-content: center;
+    margin: 6rem 140px;
+}
+
+.div{
+    margin-left: 40px;
+    width: 50vw;
+}
+
+.driver{
+    width: 36vw;
+    height: fit-content;
+    border-radius: 12px;
+}
+
+.title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.info{
+    color: #4D4D4D;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.cuntainer{
+
+    margin-top: 50px;
+}
+
+.titleTwo{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #4D4D4D;
+}
+
+.Link{
+    color: #0065dc;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.Buttons{
+    margin: 50px auto 0;
+    display: flex;
+}
+
+.button{
+    align-items: center;
+    background-color: #0065dc;
+    border-radius: 12px;
+    color: #fff;
+    display: flex;
+    font-size: 16px;
+    height: 56px;
+    justify-content: center;
+    white-space: nowrap;
+    width: 200px!important;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.button:hover{
+    background-color: #1974df;
+}
+
+
+@media ( max-width:1000px) {
+    .TapsiAdvantages{
+        margin: 6rem 100px;
+    }
+}
+
+@media (max-width:770px) {
+    .TapsiAdvantages{
+        flex-direction: column-reverse;
+        // align-items: center;
+        margin: 5rem 40px;
+    }
+
+    .driver{
+        width: 85vw;
+        display: flex;
+        margin: 0 auto 50px !important;
+    }
+
+    .div{
+        width: fit-content;
+        margin: 0;
+    }
+    .title{
+        font-size: 22px;
+    }
+    .info, .button {
+        font-size: 14px;
+    }
+    .titleTwo , .Link{
+        font-size: 16px;
+    }
+    .Buttons{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .button{
+        height: 52px!important;
+        width: 222px!important;
+        margin: 0 auto 15px;
+    }
+}
