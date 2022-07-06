@@ -1,0 +1,87 @@
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../../../../fonts/eot/dana-regular.eot');
+	src: url('../../../../../fonts/eot/dana-regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../../../../fonts/woff2/dana-regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../../../../fonts/woff/dana-regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+.NewBlogs{
+    padding: 120px 140px;
+    background-color: #F8F8F8;
+    font-family: dana;
+}
+
+.title{
+    color: #000!important;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+}
+
+.blog{
+    display:flex;
+    flex-direction: column;
+    padding: 25px;
+    cursor: pointer;
+    // width: min-content;
+}
+
+.blog:hover{
+    box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+
+}
+
+.blogImg{
+    width: 25vw;
+    border-radius: 12px;
+}
+
+.blogTitle{
+    font-size: 22px;
+    color: #9B9B9B;
+    margin: 10px 0;
+}
+
+.blogInfo{
+    font-size: 18px;
+    color: #333333;
+    text-align: justify;
+}
+
+
+@media (max-width: 770px) {
+    .NewBlogs{
+        padding: 80px 40px;
+    }
+    .title{
+        font-size: 22px;
+    }
+    .blogs{
+        flex-direction: column;
+    }
+    .blogImg{
+        width: 100%;
+    }
+    .blogTitle{
+        font-size: 16px;
+    }
+    .blogInfo{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1100px) {
+    .NewBlogs{
+        padding: 120px 90px;
+    }
+}
