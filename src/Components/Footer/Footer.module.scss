@@ -1,0 +1,143 @@
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../../fonts/eot/dana-regular.eot');
+	src: url('../../../fonts/eot/dana-regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../../fonts/woff2/dana-regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../../fonts/woff/dana-regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Footer{
+    font-family: dana;
+    background: #000000;
+    color: #ffffff;
+    padding:  75px 130px;
+    // margin-top: 30px;
+}
+
+.Links{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Tapsi{
+    font-size: 12px;
+    width: 170px;
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.TapsiInfo {
+    font-size: 12px;
+}
+
+.TapsiCopyright{
+    color: #ACACAC;
+}
+.TapsiCopyright2{
+    color: #ACACAC;
+    display: none;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.list{
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0 0 20px 20px
+}
+
+.list > :first-child {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+.namad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        height: 100%;
+        border-radius: 12px;
+        margin-left: 10px;
+    }
+
+    img{
+        width: 88px;
+    }
+}
+
+.Info{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.icon{
+    font-size: 24px;
+    margin-left: 15px;
+    color: #ACACAC;
+}
+
+.icon:hover{
+    color: #FF6738;
+}
+
+.list {
+    li:hover{
+        a{
+            color: #FF6738;
+        }
+    }
+}
+
+.list > :first-child:hover{
+   a{
+        color: #ffffff;
+   }
+}
+
+@media (max-width:770px) {
+    .Footer{
+        padding:  35px 20px;
+    }
+    .Links{
+        flex-direction: column;
+    }
+    .TapsiCopyright{
+        display: none;
+    }
+    .list{
+        margin-top: 20px;
+    }
+    .list > :first-child{
+        font-size: 20px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Info{
+        display: none;
+    }
+    .TapsiCopyright2{
+        display: inline;
+    }
+    .namad{
+        justify-content: space-between;
+        img{
+            width: 20vw;
+        }
+    }
+}
