@@ -1,0 +1,89 @@
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../../../fonts/eot/dana-regular.eot');
+	src: url('../../../../fonts/eot/dana-regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../../../fonts/woff2/dana-regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../../../fonts/woff/dana-regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+.RecordProblem_RaiseQuestion{
+    background-color: #fff;
+    font-family: dana;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 50px;
+}
+
+
+.input{
+    margin-bottom: 20px;
+    width: 350px;
+
+    input , textarea{
+        border: 0;
+        border-bottom: 1px solid #000;
+        border-radius: 0;
+        font-size: 13px;
+        font-weight: 100;
+        line-height: 2;
+        outline: none;
+        width: 100%;
+        font-family: dana;
+
+
+    }
+
+    p{
+        color: #d52833;
+        // display: block;
+        font-size: 11px;
+        font-weight: 100;
+        margin: 10px 0 -10px;
+    }
+}
+
+.button{
+    background: #ff5722;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    line-height: 50px;
+    margin: 20px auto 10px;
+    font-family: dana;
+    width: 350px;
+}
+
+.button:hover{
+    width: 380px;
+    font-size: 16px;
+    animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-hor-center {
+    0% {
+      -webkit-transform: scaleX(0.4);
+              transform: scaleX(0.4);
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+    }
+  }
+  @keyframes scale-up-hor-center {
+    0% {
+      -webkit-transform: scaleX(0.4);
+              transform: scaleX(0.4);
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+    }
+  }
+  

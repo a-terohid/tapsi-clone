@@ -5,11 +5,12 @@ import styles from "./Support.module.scss"
 
 //components
 import CreditReturnRequest from './CreditReturnRequest/CreditReturnRequest';
+import RecordProblem_RaiseQuestion from './RecordProblem-RaiseQuestion/RecordProblem_RaiseQuestion';
 
 const Support = () => {
     return (
         <div className={ styles.support } >
-            <CreditReturnRequest />
+            <RecordProblem_RaiseQuestion />
         </div>
     );
 };
