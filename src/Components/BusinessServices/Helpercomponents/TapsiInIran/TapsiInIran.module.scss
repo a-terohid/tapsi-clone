@@ -1,0 +1,44 @@
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../../../../fonts/eot/dana-regular.eot');
+	src: url('../../../../../fonts/eot/dana-regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../../../../fonts/woff2/dana-regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../../../../fonts/woff/dana-regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+.TapsiInIran{
+    background: #f8f8f9 url("https://tapsi.ir/images/map-back.svg?2ad97937f42a681e2ad83a42d8cae6a0") no-repeat ;
+    font-family: dana;
+    padding: 40px 140px;
+}
+
+.title{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.cities{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.FA{
+    font-size: 18px;
+}
+
+.EN{
+    font-size: 14px;
+}
+
+.city{
+    margin-bottom: 15px;
+    width: 12%;
+}
+
+@media (max-width: 770px) {
+    .TapsiInIran{
+        display: none;
+    }
+}

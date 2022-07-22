@@ -1,0 +1,177 @@
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../../../../fonts/eot/dana-regular.eot');
+	src: url('../../../../../fonts/eot/dana-regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../../../../fonts/woff2/dana-regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../../../../fonts/woff/dana-regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+// .MoreInfo{
+//     display: flex;
+// }
+
+.MoreInfo{
+    background: #fff;
+    font-family: dana;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+}
+
+@media (min-width: 769px) {
+    .MoreInfo{
+        width: 750px;
+    }    
+}
+
+@media (min-width: 992px) {
+    .MoreInfo{
+        width: 970px;
+    }    
+}
+
+@media (min-width: 1200px) {
+    .MoreInfo{
+        width: 1170px;
+    }    
+}
+
+
+.div{
+    display: flex;
+}
+
+.Title{
+    color: #4d4d4d;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.info{
+    color: #333;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 2rem;
+}
+
+.icon{
+    width: 20px;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.linkName{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.linkNumber{
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.icon{
+    margin: 0px 0 -3px 10px;
+}
+
+.text{
+    width: 50%;
+    margin-left: 55px
+}
+
+.IPUTS{
+    width: 50%;
+    padding-right: 55px;
+    border-right: 2px solid #ececec;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+
+    label{
+        align-self: flex-start;
+        color: #9b9b9b;
+    }
+
+    input{
+        background-color: #ececec;
+        border: none;
+        border-radius: 5px;
+        direction: rtl;
+        height: 50px;
+        margin-bottom: 16px;
+        padding-right: 20px;
+        width: 80%;
+	    font-family: dana;
+    }
+
+}
+
+.Button{
+    display: flex;
+    justify-content: end;
+}
+
+.button{
+    align-items: center;
+    font-family: dana;
+    background-color: #ff5722;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 85px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 770px) {
+    .MoreInfo{
+        margin: 0 20px;
+    }
+    .div{
+        flex-direction: column;
+    }
+    .IPUTS , .text{
+        width: 100%;
+        padding: 0;
+    }
+    .IPUTS{
+        border: none;
+    }
+    .input{
+        input{
+            width: calc( 100% - 20px);
+        }
+    
+    }
+
+    .Title{
+        font-size: 20px;
+    }
+    .info , .linkName,.linkNumber , .button{
+        font-size: 16px;
+    }
+    .link{
+        flex-direction: column;
+    }
+    .linkNumber{
+        text-align: left;
+    }
+    .Button{
+        justify-content: center;
+    }
+    .button{
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px 40px;
+    }
+}

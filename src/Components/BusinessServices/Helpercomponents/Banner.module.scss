@@ -1,0 +1,69 @@
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../../../fonts/eot/dana-regular.eot');
+	src: url('../../../../fonts/eot/dana-regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../../../fonts/woff2/dana-regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../../../fonts/woff/dana-regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+.banner{
+    align-items: center;
+    background:  url("https://tapsi.ir/images/banner-bg.png?16f6329bbaab76d4373b92291c425b77");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 540px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: dana;
+    padding: 0 190px;
+}
+
+.title {
+    font-size: 46px;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+
+    h3{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    width: 25%;
+    }
+
+}
+
+@media ( max-width:770px) {
+
+    .banner{
+        padding: 0 100px;
+    }
+
+
+    .title{
+        font-size: 20px;
+    }
+
+    .info{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            font-size: 16px;
+            width: fit-content;
+            margin-bottom: 35px;
+        }
+
+    }
+    
+}

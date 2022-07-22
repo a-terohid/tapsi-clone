@@ -1,0 +1,177 @@
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../../../../fonts/eot/dana-regular.eot');
+	src: url('../../../../../fonts/eot/dana-regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../../../../fonts/woff2/dana-regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../../../../fonts/woff/dana-regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+.Section{
+    background: #fff;
+    padding: 100px 0;
+    font-family: dana;
+}
+
+
+.SectionTitle{
+    font-size: 40px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 36px;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+}
+
+.title2{
+    font-size: 28px;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+}
+
+.Info{
+    color: #333;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.OrganizationPanel,.travelCodes ,.SectionTitle {
+    display: flex;
+    margin: 85px auto;
+}
+
+@media (min-width: 768px){
+    .OrganizationPanel,.travelCodes ,.SectionTitle , .videoDiv {
+        width: 750px;
+    }
+}
+@media (min-width: 992px){
+    .OrganizationPanel,.travelCodes ,.SectionTitle , .videoDiv {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px){
+    .OrganizationPanel,.travelCodes ,.SectionTitle , .videoDiv {
+        width: 1170px;
+    }
+}
+
+
+
+
+.aquare{
+    background-color: #ff5722;
+    flex-shrink: 0;
+    height: 16px;
+    margin-left: 23px;
+    margin-top: 5px;
+    width: 16px;
+}
+
+.list{
+    margin: 4rem 0;
+    li{
+        display: flex;
+        margin: 15px 0;
+        font-size: 18px;
+    }
+}
+
+.Buttons{
+    margin: 3rem 0;
+}
+
+.Button{
+    align-items: center;
+    background-color: #ff5722;
+    border-radius: 3px;
+    color: #fff;
+
+    font-size: 20px;
+    margin-left: 35px;
+    padding: 5px 15px;
+    margin-bottom: 5rem;
+}
+
+.Link{
+    color: #337ab7;
+    font-size: 18px;
+}
+
+.IMG{
+    width: 40vw;
+    height: fit-content;
+}
+
+.videoDiv{
+    margin:4rem auto;
+}
+
+.video{
+    width: 100%;
+}
+
+
+@media (max-width: 770px) {
+
+    .Section{
+        padding: 50px 20px;
+    }
+
+    .OrganizationPanel,.travelCodes{
+        margin-top: 2rem;
+    }
+
+    .OrganizationPanel{
+        flex-direction: column-reverse;
+    }
+
+    .travelCodes{
+        flex-direction: column;
+    }
+
+    .SectionTitle , .title{
+        font-size: 20px;
+    }
+
+    .IMG{
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .Info, .title2{
+        font-size: 16px;
+    }
+    .list{
+        li{
+            font-size: 16px;
+        }
+    }
+    .aquare{
+        width: 12px;
+        height: 12px;
+        margin-left: 12px;
+    }
+
+    .Buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Button{
+        margin: 0 0 10px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .videoDiv{
+        margin: 0 auto;
+    }
+}
